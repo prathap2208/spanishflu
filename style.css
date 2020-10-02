@@ -4,7 +4,6 @@
 	margin: 0;
 }
 .wrapper{
-	background: url("file:///home/srikanth/Desktop/project_srikanth/nature.jpeg") no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
@@ -90,6 +89,6 @@
 	background: #cc0000;
 }
 img{
-	width: fit-content;
-	height: fit-content;
+	width: 100px;
+	height: 100px;
 }
