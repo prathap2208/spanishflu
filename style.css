@@ -1,8 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+#indexBody{
+	background-image: url("spanishflu.jpg");
+		 background-size: $backgroundsize;
+ }
+ header {
+ padding : 10px;
+	   color: white;
+	   background-color :  grey;
+	   text-align : center;
+	   width:auto;
+	   height:auto;
+	   font-size:60px;
+   
+ 
+ }
+ #treatbody{
+	 background-color : rgb(199, 231, 82);
+ }
+ 
+ 
+ nav{
+	 width:auto;
+   
+ }
+ @media screen and (max-width: 100px) {
+   nav {
+	 float: none;
+	 width: 100%;
+   }
+ }
+ section{
+	 padding: 10px;
+	 width : 450px;
+ }
+ 
+ .colorheader{
+	 text-align:center;
+	 font-weight: bold;
+	 color:white;
+ 
+ }
+ .navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
 *{
 	padding: 0;
 	margin: 0;
 }
+
 .wrapper{
 	background-size: cover;
 	height: 100vh;
@@ -91,4 +162,4 @@
 img{
 	width: 100px;
 	height: 100px;
-}
+} */
